@@ -5,18 +5,17 @@ package:
   version: {{ version }}
 
 source:
-  fn: dolfyn-{{ version }}.tar.gz
   url:  https://pypi.io/packages/source/d/dolfyn/dolfyn-{{ version }}.tar.gz
   sha256: a40e543db68880c80f8af5f83df1f106a9c1286593e398d2cbf976fe9ae4d37b
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - numpy
