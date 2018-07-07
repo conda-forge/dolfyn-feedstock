@@ -14,14 +14,15 @@ Summary: Doppler Ocean Library for pYthoN.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dolfyn-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dolfyn-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dolfyn-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dolfyn-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dolfyn-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dolfyn-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dolfyn-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dolfyn-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dolfyn/badges/version.svg)](https://anaconda.org/conda-forge/dolfyn)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dolfyn/badges/downloads.svg)](https://anaconda.org/conda-forge/dolfyn)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dolfyn-green.svg)](https://anaconda.org/conda-forge/dolfyn) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dolfyn.svg)](https://anaconda.org/conda-forge/dolfyn) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dolfyn.svg)](https://anaconda.org/conda-forge/dolfyn) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dolfyn.svg)](https://anaconda.org/conda-forge/dolfyn) |
 
 Installing dolfyn
 =================
