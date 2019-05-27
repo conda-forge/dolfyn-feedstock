@@ -37,8 +37,9 @@ test:
 
 about:
   home: http://github.com/lkilcher/dolfyn
-  license: Apache 2.0
-  summary: 'Doppler Ocean Library for pYthoN.'
+  license: Apache-2.0
+  license_file: LICENSE.txt
+  summary: 'Doppler Ocean Library for pYthoN'
 
 extra:
   recipe-maintainers:
