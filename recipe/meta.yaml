@@ -1,4 +1,4 @@
-{% set version = "0.11.2" %}
+{% set version = "0.12" %}
 
 package:
   name: dolfyn
@@ -6,7 +6,7 @@ package:
 
 source:
   url:  https://pypi.io/packages/source/d/dolfyn/dolfyn-{{ version }}.tar.gz
-  sha256: 1d3ae8366d267f24809dbac72c7d0486b4591866278ae989fa9b74d98cfd14f6
+  sha256: 3a21ba39c7dfc424b00a7b49d635d17b497fb3c5169058b0ffd8e4b0fbd576f2
 
 build:
   noarch: python
