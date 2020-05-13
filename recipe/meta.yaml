@@ -1,17 +1,17 @@
-{% set version = "0.12" %}
+{% set version = "0.12.1" %}
 
 package:
   name: dolfyn
   version: {{ version }}
 
 source:
-  url:  https://pypi.io/packages/source/d/dolfyn/dolfyn-{{ version }}.tar.gz
-  sha256: 3a21ba39c7dfc424b00a7b49d635d17b497fb3c5169058b0ffd8e4b0fbd576f2
+  url: https://pypi.io/packages/source/d/dolfyn/dolfyn-{{ version }}.tar.gz
+  sha256: 9a6d41d29486dc06df7242acabb0ff7764dde01be2c0c7e5194368cde100d991
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -39,7 +39,7 @@ about:
   home: http://github.com/lkilcher/dolfyn
   license: Apache-2.0
   license_file: LICENSE.txt
-  summary: 'Doppler Ocean Library for pYthoN'
+  summary: Doppler Ocean Library for pYthoN
 
 extra:
   recipe-maintainers:
