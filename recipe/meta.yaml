@@ -9,9 +9,9 @@ source:
   sha256: 9a6d41d29486dc06df7242acabb0ff7764dde01be2c0c7e5194368cde100d991
 
 build:
-  noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -20,10 +20,10 @@ requirements:
   run:
     - python
     - setuptools
-    - numpy
-    - scipy
     - h5py
+    - numpy
     - pydicth5
+    - scipy
 
 test:
   imports:
@@ -34,6 +34,10 @@ test:
     - dolfyn.io
     - dolfyn.meta
     - dolfyn.tools
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://github.com/lkilcher/dolfyn
