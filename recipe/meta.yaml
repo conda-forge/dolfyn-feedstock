@@ -1,4 +1,4 @@
-{% set version = "0.12.1" %}
+{% set version = "0.13.0" %}
 
 package:
   name: dolfyn
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dolfyn/dolfyn-{{ version }}.tar.gz
-  sha256: 9a6d41d29486dc06df7242acabb0ff7764dde01be2c0c7e5194368cde100d991
+  sha256: 01c2a66170a79fa1413d7792e2e9ace742680d3c21e7566fbf0697a41be2de58
 
 build:
   number: 0
@@ -15,24 +15,22 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
-    - setuptools
-    - h5py
+    - python >=3.6
+    - netcdf4
     - numpy
-    - pydicth5
     - scipy
+    - six
+    - xarray
 
 test:
   imports:
     - dolfyn
     - dolfyn.adp
     - dolfyn.adv
-    - dolfyn.data
     - dolfyn.io
-    - dolfyn.meta
     - dolfyn.tools
   commands:
     - pip check
