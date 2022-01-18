@@ -15,24 +15,22 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
-    - setuptools
-    - h5py
+    - python >=3.6
+    - netcdf4
     - numpy
-    - pydicth5
     - scipy
+    - six
+    - xarray
 
 test:
   imports:
     - dolfyn
     - dolfyn.adp
     - dolfyn.adv
-    - dolfyn.data
     - dolfyn.io
-    - dolfyn.meta
     - dolfyn.tools
   commands:
     - pip check
