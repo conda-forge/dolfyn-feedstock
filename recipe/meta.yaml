@@ -10,20 +10,20 @@ source:
 
 build:
   number: 0
-  noarch: python
+  # cannot be noarch b/c of scripts
+  # noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - pip
   run:
-    - python >=3.6
-    - netcdf4
-    - numpy
-    - scipy
-    - six
-    - xarray
+    - python
+    - netcdf4 >=1.5.7
+    - numpy >=1.21
+    - scipy >=1.7.0
+    - xarray >=0.18.2
 
 test:
   imports:
