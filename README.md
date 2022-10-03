@@ -3,7 +3,7 @@ About dolfyn
 
 Home: http://github.com/lkilcher/dolfyn
 
-Package license: Apache-2.0
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dolfyn-feedstock/blob/main/LICENSE.txt)
 
