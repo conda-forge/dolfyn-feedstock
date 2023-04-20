@@ -1,11 +1,11 @@
-About dolfyn
-============
+About dolfyn-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dolfyn-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/lkilcher/dolfyn
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dolfyn-feedstock/blob/main/LICENSE.txt)
 
 Summary: Doppler Ocean Library for pYthoN
 
